@@ -62,3 +62,6 @@ GROUP BY dpm.payment_method;
 SELECT
     ROUND(AVG(total_amount), 2) AS average_ticket
 FROM fact_sales;
+
+
+*Created by Brenda Espinosa*
