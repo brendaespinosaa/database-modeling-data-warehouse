@@ -33,3 +33,6 @@ CREATE TABLE payments (
     order_id INT,
     payment_method VARCHAR(50)
 );
+
+
+*Created by Brenda Espinosa*
