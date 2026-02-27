@@ -44,3 +44,6 @@ The ETL pipeline was developed in Python and includes:
 To run the ETL:
 ```bash
 python3 etl/etl_dw.py
+
+
+*Created by Brenda Espinosa*
