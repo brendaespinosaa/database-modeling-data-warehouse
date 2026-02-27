@@ -38,3 +38,7 @@ CREATE TABLE fact_sales (
     quantity INT,
     total_amount DECIMAL(10,2)
 );
+
+
+
+*Created by Brenda Espinosa*
