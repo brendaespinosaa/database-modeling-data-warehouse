@@ -81,5 +81,65 @@ sql/analytics_queries.sql
 - Analytical SQL Queries
 - Business-Oriented Data Analysis
 
+---
+
+## 📸 Query Execution Examples
+
+Below are examples of analytical queries executed in MySQL Workbench using the Data Warehouse schema.
+
+### Revenue per Month
+![Revenue per Month](images/queries/revenue_per_month.png)
+
+### Top Products by Revenue
+![Top Products](images/queries/top_products.png)
+
+### Revenue by Payment Method
+![Revenue by Payment Method](images/queries/revenue_by_payment_method.png)
+
+### Average Ticket
+![Average Ticket](images/queries/average_ticket.png)
+
+---
+
+## 📊 Business KPIs Explained
+
+### 1️⃣ Revenue per Month
+Measures total revenue aggregated by year and month.
+
+**Business Value:**
+- Identifies seasonality patterns
+- Tracks growth trends
+- Supports revenue forecasting
+
+---
+
+### 2️⃣ Top Products by Revenue
+Ranks products according to total revenue generated.
+
+**Business Value:**
+- Identifies high-performing products
+- Supports inventory and supply planning
+- Assists marketing strategy decisions
+
+---
+
+### 3️⃣ Revenue by Payment Method
+Analyzes revenue distribution across different payment types.
+
+**Business Value:**
+- Understands customer payment preferences
+- Supports financial and operational decisions
+- Helps evaluate payment provider performance
+
+---
+
+### 4️⃣ Average Ticket
+Calculates the average value per sale.
+
+**Business Value:**
+- Measures customer purchasing behavior
+- Tracks pricing strategy effectiveness
+- Evaluates promotional impact
+
 
 *Created by Brenda Espinosa*
