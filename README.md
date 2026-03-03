@@ -141,5 +141,58 @@ Calculates the average value per sale.
 - Tracks pricing strategy effectiveness
 - Evaluates promotional impact
 
+---
+
+---
+
+## 🌍 Real-World Business Scenario
+
+This project simulates a real e-commerce company that needs to transform raw transactional data into structured and reliable business insights.
+
+The Data Warehouse was designed to support:
+
+- Executive revenue analysis
+- Product performance monitoring
+- Payment behavior analysis
+- KPI tracking for strategic decision-making
+
+The architecture follows best practices commonly used in real Business Intelligence and Data Engineering environments.
+
+---
+
+## 🏗️ Data Engineering Concepts Applied
+
+- Star Schema modeling
+- Fact and Dimension table separation
+- Surrogate key implementation (`*_key`)
+- Defined fact table grain
+- Full Load ETL strategy (truncate and load)
+- Transaction control (commit / rollback)
+- Modular and maintainable ETL structure
+- Aggregation and KPI extraction from fact tables
+
+---
+
+## 🔎 Fact Table Grain Definition
+
+The grain of the `fact_sales` table is defined as:
+
+> One record per product sold per order.
+
+This grain ensures correct aggregation for revenue calculations, product performance analysis, and average ticket computation.
+
+Clearly defining the grain guarantees data consistency and prevents incorrect KPI calculations.
+
+---
+
+## 🚀 Future Improvements
+
+- Implement incremental load strategy
+- Add data validation and quality checks
+- Create BI dashboards (Power BI or Tableau)
+- Orchestrate ETL with Apache Airflow
+- Deploy to a cloud data warehouse (Snowflake, BigQuery or Redshift)
+- Containerize the ETL process using Docker
+
 
 *Created by Brenda Espinosa*
