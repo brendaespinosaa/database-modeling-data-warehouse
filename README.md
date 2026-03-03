@@ -143,8 +143,6 @@ Calculates the average value per sale.
 
 ---
 
----
-
 ## 🌍 Real-World Business Scenario
 
 This project simulates a real e-commerce company that needs to transform raw transactional data into structured and reliable business insights.
